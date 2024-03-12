@@ -1,0 +1,15 @@
+<div id="<%= dom_id topic %>" class="border rounded p-5">
+  <strong class="text-muted">
+    <%= topic.title %>
+  </strong>
+
+  <p class="my-5 border rounded p-5">
+    <small>
+      <%= topic.content %>
+    </small>
+  </p>
+
+  <small class="border rounded p-2">
+    <%= topic.user.email %>
+  </small>
+</div>

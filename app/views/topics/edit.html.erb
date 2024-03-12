@@ -1,0 +1,9 @@
+<h1 class="mb-5 text-center">Editing topic</h1>
+
+<%= render "form", topic: @topic %>
+
+<br>
+<div class="btn-group my-5">
+  <%= link_to "Show this topic", @topic, class: "btn btn-sm btn-outline-light" %>
+  <%= link_to "Back to topics", topics_path, class: "btn btn-sm btn-outline-light" %>
+</div>

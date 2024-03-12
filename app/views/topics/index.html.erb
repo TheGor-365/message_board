@@ -1,0 +1,8 @@
+<h1 class="mb-5 text-center">Topics</h1>
+
+<% @topics.each do |topic| %>
+  <%= render topic %>
+  <p><%= link_to "Show this topic", topic, class: "btn btn-sm btn-outline-light mt-3" %></p>
+<% end %>
+
+<%= link_to "New topic", new_topic_path, class: "btn btn-sm btn-outline-light mt-3" %>
